@@ -18,9 +18,9 @@ module.exports = {
     manifestOptions: {
       name: "pwa.name",
       short_name: "pwa.name",
-      start_url: "/",
+      start_url: ".",
       display: "standalone",
-      theme_color: "pwa.themeColor"
+      theme_color: "#4DBA87"
     }
   }
 };
