@@ -22,5 +22,9 @@ module.exports = {
       display: "standalone",
       theme_color: "#4DBA87"
     }
+  },
+  // Injected PWA webpack chain rule
+  chainWebpack: config => {
+    config.plugin('workbox')
   }
 };
